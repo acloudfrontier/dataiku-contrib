@@ -1,4 +1,4 @@
-PLUGIN_VERSION=0.0.2
+PLUGIN_VERSION=0.0.4
 PLUGIN_ID=dataiku-project-bundle-migration
 
 plugin:
@@ -6,5 +6,5 @@ plugin:
 	rm -rf dist
 	mkdir dist
 	zip -r dist/dss-plugin-${PLUGIN_ID}-${PLUGIN_VERSION}.zip plugin.json python-runnables
-	
+
 include ../Makefile.inc
